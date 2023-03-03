@@ -9,7 +9,7 @@ export default function About() {
 
     <main>
 
-      <section className="bg-slate-300 flex flex-col justify-center items-center text-center p-10">
+      <section className="bg-slate-300 flex flex-col justify-center items-center">
         <h1>Who am i?</h1>
         <p>
           Personal letter
