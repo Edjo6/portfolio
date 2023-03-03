@@ -1,53 +1,31 @@
-import {
-  AiFillFacebook,
-  AiFillInstagram,
-  AiFillLinkedin,
-  AiFillGithub,
-} from "react-icons/ai";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <main>
-      <nav className="bg-slate-500 max-h-fit p-10">
-        <ul className="flex justify-center">
-          <li className="inline-block m-4">
-            <div className="bg-white rounded-full p-2">
-              <AiFillFacebook size={40} />
-            </div>
-          </li>
+    <>
+      <Header />
 
-          <li className="inline-block m-4">
-            <div className="bg-white rounded-full p-2">
-              <AiFillInstagram size={40} />
-            </div>
-          </li>
-
-          <li className="inline-block m-4">
-            <div className="bg-white rounded-full p-2">
-              <AiFillLinkedin size={40} />
-            </div>
-          </li>
-
-          <li className="inline-block m-4">
-            <div className="bg-white rounded-full p-2">
-              <AiFillGithub size={40} />
-            </div>
-          </li>
-
-        </ul>
-      </nav>
-
-      <section className="flex flex-col justify-center text-center">
-        <div className="p-10">
-          <h1 className="text-4xl">Edwin Johansson</h1>
+      <section className="bg-slate-300 flex flex-col justify-center items-center text-center p-10">
+        <div className="bg-slate-200 p-10 flex flex-col items-center rounded-2xl shadow-2xl">
+          <div className="flex items-center">
+            <img
+              src="avatar.svg"
+              alt="vercel.svg"
+              className="w-28 h-28 mr-4 opacity-80"
+            />
+            <h1 className="text-4xl text-gray-700">Edwin Johansson</h1>
+          </div>
         </div>
 
         <div className="p-10">
-          <h2>A Passionate newly graduated developer!</h2>
+          <h2 className="text-gray-700">
+            A Passionate newly graduated developer!
+          </h2>
         </div>
 
-        <div className="p-10">
-          <p>
+        <div className="p-10 w-3/5 bg-slate-200 rounded-2xl shadow-2xl">
+          <p className="text-gray-700">
             A newly passionate developer is someone who has recently discovered
             a love for programming and is eager to learn and create new things.
             They are enthusiastic about tackling challenging projects and enjoy
@@ -62,6 +40,8 @@ export default function Home() {
           </p>
         </div>
       </section>
-    </main>
+
+      <Footer />
+    </>
   );
 }
