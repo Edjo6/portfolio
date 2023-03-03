@@ -4,4 +4,7 @@
 
 html {
   @apply font-mono;
+  @apply text-gray-900;
+  @apply bg-gray-100;
+  @apply rounded-full
 }

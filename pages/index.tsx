@@ -1,7 +1,9 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+
 
 export default function Home() {
+
   return (
     <>
       <Header />
@@ -9,11 +11,13 @@ export default function Home() {
       <section className="bg-slate-300 flex flex-col justify-center items-center text-center p-10">
         <div className="bg-slate-200 p-10 flex flex-col items-center rounded-2xl shadow-2xl">
           <div className="flex items-center">
+
             <img
               src="avatar.svg"
               alt="vercel.svg"
               className="w-28 h-28 mr-4 opacity-80"
             />
+
             <h1 className="text-4xl text-gray-700">Edwin Johansson</h1>
           </div>
         </div>

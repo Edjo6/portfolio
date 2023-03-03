@@ -2,6 +2,7 @@ import { FaUntappd } from "react-icons/fa";
 import { AiFillInstagram, AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
 
 export default function Footer() {
+
   return (
     <footer className="bg-slate-400 p-5 text-center gap-5">
 
