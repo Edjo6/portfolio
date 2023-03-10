@@ -11,13 +11,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#82C0CC",
-        secondary: "#489FB5",
-        light: "#EDE7E3",
-        dark: "#16697A",
-        orangina: "#FFA62B",
-      }
+        gray: {
+          900: '#202225',
+          800: '#2f3136',
+          700: '#36393f',
+          600: '#4f545c',
+          400: '#d4d7dc',
+          300: '#e3e5e8',
+          200: '#ebedef',
+          100: '#f2f3f5',
+          50: '#f9fafb',
+        },
     },
   },
   plugins: [],
+}
 }
