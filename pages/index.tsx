@@ -5,13 +5,50 @@ import TextSection from "@/components/TextSection";
 export default function Home() {
   return (
     <>
-    
       <Header />
 
-        <main className="bg-gray-400 p-5">
-          <h1 className="text-6xl text-center">Hello World</h1>
-          <TextSection text="Bajs" />
-        </main>
+      <main className="bg-gray-400 p-5 flex flex-col items-center justify-center">
+        <h1 className="text-6xl text-center">Edwin Johansson</h1>
+        <TextSection
+          text="Jag studerar just nu min sista termin till högskoleingenjör inom mjukvaruteknik på
+                Linnéuniversitet i Kalmar. Det är en rolig och mångsidig utbildning som har givit mig
+                en bred teknisk grund att stå på. Jag ser fram emot att komma ut i arbetslivet och
+                få specialisera sig och vidareutvecklas både socialt och tekniskt.
+                Jag har tidigare arbetat inom service, inklusive kundtjänst, vilket utvecklade min
+                förmåga att förstå och prata med kunder på ett bra sätt. Jag tror att dessa
+                färdigheter skulle vara värdefulla i kundkontakterna inom IT-branschen. Mitt fokus
+                på hög kundnöjdhet har också visat sig i tidigare jobb genom mätningar.
+                Jag är en driven, social och lojal person som tycker det är viktigt att trivas på
+                jobbet och bidra till en positiv arbetsmiljö. Min ambition är att hitta ett företag där
+                jag kan växa och utvecklas långsiktigt.
+                Jag är en motiverad och nyexaminerad student som har en stark drivkraft att lära
+                mig nya saker och leverera högsta kvalitet i nya projekt. Jag tror att samarbete är
+                en nyckelfaktor för att uppnå framgång och nå gemensamma mål, och jag är
+                öppen för feedback för att förbättra mig själv och bidra till en positiv arbetsmiljö.
+                Ett exempel på min samarbetsförmåga var när jag och min grupp vann Open
+                Innovation Challenge, ett Hackathon. Vi hade en positiv stämning under hela
+                dygnet och arbetade effektivt tillsammans för att uppnå våra mål.
+                Genom mitt engagemang i studentföreningen har jag utvecklat min förmåga att
+                samarbeta och hantera olika utmaningar. Dessutom har jag varit med och startat
+                upp Kodkollektivet i Kalmar, en intresseförening där vi driver projekt och försöker
+                efterlikna arbetslivet så mycket som möjligt. Ett av våra projekt har varit att bygga
+                en hemsida för ett lokalt gym, vilket har varit en rolig och lärorik erfarenhet.
+                Jag har en bred kunskapsbas inom flera olika programmeringsspråk och
+                teknologier som jag har lärt mig under min utbildning, inklusive Java, Python och
+                Javascript/Typescript. Jag har byggt webbapplikationer och RESTful API:er med
+                hjälp av HTML, CSS och Express.js, och jag har också kunskaper inom kodstruktur
+                och arkitektur med fokus på MVC-struktur och objektorienterad programmering.
+                Jag har också fått grundläggande kunskaper inom assembly och C samt
+                databashantering med MySQL och MongoDB. Inom IoT har jag använt LoRA och
+                olika mikrokontroller för att mäta och skicka värden. Dessutom har jag intresse och
+                kunskaper inom maskininlärning som jag tycker är intressant.
+
+                Jag är mest intresserad av att arbeta inom områdena maskininlärning eller webb-
+                och apputveckling. Även om jag inte har erfarenhet av apputveckling så tror jag att
+
+                min breda kunskapsbas kan hjälpa mig att snabbt sätta mig in i nya tekniker."
+        />
+      </main>
       <Footer />
     </>
   );

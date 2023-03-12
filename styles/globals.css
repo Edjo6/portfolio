@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-  @apply font-mono;
+  @apply font-sans;
   @apply text-gray-900;
   @apply bg-gray-100;
   @apply rounded-full
